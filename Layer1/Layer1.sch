@@ -1724,46 +1724,22 @@ Text GLabel 6600 4650 2    50   Input ~ 0
 CU_MuEx_CtrlLn13
 Text GLabel 6600 6050 2    50   Input ~ 0
 CU_MuEx_CtrlLn14
-Text GLabel 6400 1950 2    50   Input ~ 0
-CU_CtrlLn5
-Text GLabel 6400 2050 2    50   Input ~ 0
-CU_CtrlLn6
-Text GLabel 6400 2150 2    50   Input ~ 0
-CU_CtrlLn7
-Text GLabel 6400 2250 2    50   Input ~ 0
-CU_CtrlLn8
-Text GLabel 6400 2350 2    50   Input ~ 0
-CU_CtrlLn9
-Text GLabel 6400 2450 2    50   Input ~ 0
-CU_CtrlLn10
-Text GLabel 6400 2550 2    50   Input ~ 0
-CU_CtrlLn11
-Text GLabel 6400 2650 2    50   Input ~ 0
+Text GLabel 6350 2650 2    50   Input ~ 0
 CU_CtrlLn12
-Text GLabel 6400 2750 2    50   Input ~ 0
+Text GLabel 6350 2750 2    50   Input ~ 0
 CU_CtrlLn13
-Text GLabel 6400 2850 2    50   Input ~ 0
+Text GLabel 6350 2850 2    50   Input ~ 0
 CU_CtrlLn14
-Text GLabel 6400 2950 2    50   Input ~ 0
+Text GLabel 6350 2950 2    50   Input ~ 0
 CU_CtrlLn15
-Text GLabel 6400 3050 2    50   Input ~ 0
+Text GLabel 6350 3050 2    50   Input ~ 0
 CU_CtrlLn16
-Text GLabel 6400 3150 2    50   Input ~ 0
+Text GLabel 6350 3150 2    50   Input ~ 0
 CU_CtrlLn17
-Text GLabel 6400 3250 2    50   Input ~ 0
+Text GLabel 6350 3250 2    50   Input ~ 0
 CU_CtrlLn18
-Text GLabel 6400 3350 2    50   Input ~ 0
+Text GLabel 6350 3350 2    50   Input ~ 0
 CU_CtrlLn19
-Text GLabel 6400 3450 2    50   Input ~ 0
-CU_CtrlLn20
-Text GLabel 6400 3550 2    50   Input ~ 0
-CU_CtrlLn21
-Text GLabel 6400 3650 2    50   Input ~ 0
-CU_CtrlLn22
-Text GLabel 6400 3750 2    50   Input ~ 0
-CU_CtrlLn23
-Text GLabel 6400 3850 2    50   Input ~ 0
-CU_CtrlLn24
 Text GLabel 6600 5750 2    50   Input ~ 0
 CU_CtrlLn25
 Text GLabel 6600 5850 2    50   Input ~ 0
@@ -1823,44 +1799,28 @@ Text GLabel 6600 4750 2    50   Input ~ 0
 CLK_OUT
 Text GLabel 6600 5650 2    50   Input ~ 0
 M_RST
-Text GLabel 8100 3700 0    50   Input ~ 0
-CU_CtrlLn5
-Text GLabel 8100 3800 0    50   Input ~ 0
-CU_CtrlLn6
-Text GLabel 8100 3900 0    50   Input ~ 0
-CU_CtrlLn7
-Text GLabel 8100 4000 0    50   Input ~ 0
-CU_CtrlLn8
-Text GLabel 8100 4100 0    50   Input ~ 0
-CU_CtrlLn9
-Text GLabel 8100 4200 0    50   Input ~ 0
-CU_CtrlLn10
-Text GLabel 8100 4300 0    50   Input ~ 0
-CU_CtrlLn11
-Text GLabel 8100 4400 0    50   Input ~ 0
-CU_CtrlLn12
-Text GLabel 8100 4500 0    50   Input ~ 0
-CU_CtrlLn13
-Text GLabel 8100 4600 0    50   Input ~ 0
-CU_CtrlLn14
-Text GLabel 8100 4700 0    50   Input ~ 0
-CU_CtrlLn15
-Text GLabel 8100 4800 0    50   Input ~ 0
-CU_CtrlLn16
-Text GLabel 8100 4900 0    50   Input ~ 0
-CU_CtrlLn17
-Text GLabel 8100 5000 0    50   Input ~ 0
-CU_CtrlLn18
-Text GLabel 8100 5100 0    50   Input ~ 0
-CU_CtrlLn19
-Text GLabel 8100 5200 0    50   Input ~ 0
+Text GLabel 6100 5950 0    50   Input ~ 0
 CU_CtrlLn20
-Text GLabel 8100 5300 0    50   Input ~ 0
+Text GLabel 6100 6050 0    50   Input ~ 0
 CU_CtrlLn21
-Text GLabel 8100 5400 0    50   Input ~ 0
+Text GLabel 6100 6150 0    50   Input ~ 0
 CU_CtrlLn22
-Text GLabel 8100 5500 0    50   Input ~ 0
+Text GLabel 6100 5650 0    50   Input ~ 0
 CU_CtrlLn23
-Text GLabel 8100 5600 0    50   Input ~ 0
+Text GLabel 6100 5750 0    50   Input ~ 0
 CU_CtrlLn24
+Text GLabel 6350 1950 2    50   Input ~ 0
+CU_CtrlLn11
+Text GLabel 6350 2050 2    50   Input ~ 0
+CU_CtrlLn10
+Text GLabel 6350 2150 2    50   Input ~ 0
+CU_CtrlLn9
+Text GLabel 6350 2250 2    50   Input ~ 0
+CU_CtrlLn8
+Text GLabel 6350 2350 2    50   Input ~ 0
+CU_CtrlLn7
+Text GLabel 6350 2450 2    50   Input ~ 0
+CU_CtrlLn6
+Text GLabel 6350 2550 2    50   Input ~ 0
+CU_CtrlLn5
 $EndSCHEMATC
