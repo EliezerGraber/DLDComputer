@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Layer1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -37,7 +36,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0006.pdf" H 4650 1850 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS193 U2
+L Layer1-rescue:74LS193-74xx U2
 U 1 1 61EB3013
 P 1400 4000
 F 0 "U2" H 1400 4881 50  0000 C CNN
@@ -402,7 +401,7 @@ F 3 "~" H 11000 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HCT4060D-Q100_11:74HCT4060D-Q100,11 IC1
+L Layer1-rescue:74HCT4060D-Q100,11-74HCT4060D-Q100_11 IC1
 U 1 1 61EE8354
 P 9700 3900
 F 0 "IC1" H 10200 4165 50  0000 C CNN
@@ -909,7 +908,7 @@ F 3 "" H 2800 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L myParts:74461 U3
+L Layer1-rescue:74461-myParts U3
 U 1 1 6214C6E8
 P 1400 6700
 F 0 "U3" H 1400 7781 50  0000 C CNN
@@ -923,7 +922,7 @@ Connection ~ 1400 7600
 Wire Wire Line
 	1400 7600 2250 7600
 $Comp
-L myParts:74461 U6
+L Layer1-rescue:74461-myParts U6
 U 1 1 62150617
 P 2800 6700
 F 0 "U6" H 2800 7781 50  0000 C CNN
@@ -1121,7 +1120,7 @@ Wire Wire Line
 Connection ~ 900  3900
 Wire Wire Line
 	900  3900 900  4100
-Text GLabel 900  4300 0    50   Input ~ 0
+Text GLabel -450 4800 0    50   Input ~ 0
 CLK_OUT
 $Comp
 L power:GND #PWR0119
@@ -1147,7 +1146,7 @@ F 3 "" H 2250 3300 50  0001 C CNN
 $EndComp
 Connection ~ 1400 3300
 Wire Wire Line
-	1400 4800 1400 5200
+	1400 4800 1400 5000
 Wire Wire Line
 	1400 5200 2050 5200
 Connection ~ 2050 5200
@@ -1500,19 +1499,19 @@ CU_CtrlLn26
 Text GLabel 5050 1650 0    50   Input ~ 0
 CU_CtrlLn27
 Text GLabel 1000 2150 0    50   Input ~ 0
-CE
+EF
 Text GLabel 1000 2250 0    50   Input ~ 0
 CF
 Text GLabel 2100 2150 0    50   Input ~ 0
-CE
+EF
 Text GLabel 2100 2250 0    50   Input ~ 0
 CF
 Text GLabel 3200 2150 0    50   Input ~ 0
-CE
+EF
 Text GLabel 3200 2250 0    50   Input ~ 0
 CF
 Text GLabel 4250 2150 0    50   Input ~ 0
-CE
+EF
 Text GLabel 4250 2250 0    50   Input ~ 0
 CF
 Wire Wire Line
@@ -1823,4 +1822,57 @@ Text GLabel 6350 2450 2    50   Input ~ 0
 CU_CtrlLn6
 Text GLabel 6350 2550 2    50   Input ~ 0
 CU_CtrlLn5
+$Comp
+L Transistor_BJT:2N2219 Q1
+U 1 1 62619FAD
+P 50 4800
+F 0 "Q1" H 240 4846 50  0000 L CNN
+F 1 "2N2222" H 240 4755 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 250 4725 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 50  4800 50  0001 L CNN
+	1    50   4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 6261A7E4
+P 150 4450
+F 0 "R9" H 220 4496 50  0000 L CNN
+F 1 "1k" H 220 4405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 80  4450 50  0001 C CNN
+F 3 "~" H 150 4450 50  0001 C CNN
+	1    150  4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 6262B5B0
+P -300 4800
+F 0 "R8" V -93 4800 50  0000 C CNN
+F 1 "10k" V -184 4800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V -370 4800 50  0001 C CNN
+F 3 "~" H -300 4800 50  0001 C CNN
+	1    -300 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	150  5000 1400 5000
+Connection ~ 1400 5000
+Wire Wire Line
+	1400 5000 1400 5200
+Wire Wire Line
+	1400 3300 150  3300
+Wire Wire Line
+	150  3300 150  4300
+Wire Wire Line
+	150  4600 500  4600
+Wire Wire Line
+	500  4600 500  4300
+Wire Wire Line
+	500  4300 900  4300
+Connection ~ 150  4600
+Text GLabel 6100 5450 0    50   Input ~ 0
+EF
+Text GLabel 6100 5550 0    50   Input ~ 0
+CF
 $EndSCHEMATC
