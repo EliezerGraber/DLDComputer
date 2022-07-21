@@ -1835,4 +1835,12 @@ F 3 "" H 5800 10150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 5800 10150
+Text GLabel 8300 4400 2    50   Input ~ 0
+CU_MuEx_CtrlLn7
+Text GLabel 8300 4300 2    50   Input ~ 0
+CU_MuEx_CtrlLn8
+Text GLabel 8300 4200 2    50   Input ~ 0
+CU_MuEx_CtrlLn9
+Text GLabel 9850 4300 0    50   Input ~ 0
+KF
 $EndSCHEMATC

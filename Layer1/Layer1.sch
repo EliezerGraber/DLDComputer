@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Layer1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1386,12 +1387,6 @@ Wire Wire Line
 	2500 750  3150 750 
 Connection ~ 2500 2950
 Connection ~ 3600 2950
-Wire Wire Line
-	3600 2950 4150 2950
-Wire Wire Line
-	2500 2950 3100 2950
-Wire Wire Line
-	2100 2950 2000 2950
 Connection ~ 2100 2950
 Connection ~ 1400 2950
 Text GLabel 1800 950  0    50   Input ~ 0
@@ -1514,34 +1509,6 @@ Text GLabel 4250 2150 0    50   Input ~ 0
 EF
 Text GLabel 4250 2250 0    50   Input ~ 0
 CF
-Wire Wire Line
-	1000 2350 900  2350
-Wire Wire Line
-	900  2350 900  2950
-Wire Wire Line
-	900  2950 1000 2950
-Connection ~ 1000 2950
-Wire Wire Line
-	2100 2350 2000 2350
-Wire Wire Line
-	2000 2350 2000 2950
-Connection ~ 2000 2950
-Wire Wire Line
-	2000 2950 1400 2950
-Wire Wire Line
-	3200 2350 3100 2350
-Wire Wire Line
-	3100 2350 3100 2950
-Connection ~ 3100 2950
-Wire Wire Line
-	3100 2950 3200 2950
-Wire Wire Line
-	4250 2350 4150 2350
-Wire Wire Line
-	4150 2350 4150 2950
-Connection ~ 4150 2950
-Wire Wire Line
-	4150 2950 4200 2950
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J1
 U 1 1 62466812
@@ -1875,4 +1842,35 @@ Text GLabel 6100 5450 0    50   Input ~ 0
 EF
 Text GLabel 6100 5550 0    50   Input ~ 0
 CF
+Wire Wire Line
+	1400 2950 2000 2950
+Wire Wire Line
+	2500 2950 3100 2950
+Wire Wire Line
+	3600 2950 4150 2950
+Text GLabel 1000 2350 0    50   Input ~ 0
+KF
+Text GLabel 6100 5350 0    50   Input ~ 0
+KF
+Wire Wire Line
+	2100 2350 2000 2350
+Wire Wire Line
+	2000 2350 2000 2950
+Connection ~ 2000 2950
+Wire Wire Line
+	2000 2950 2100 2950
+Wire Wire Line
+	3200 2350 3100 2350
+Wire Wire Line
+	3100 2350 3100 2950
+Connection ~ 3100 2950
+Wire Wire Line
+	3100 2950 3200 2950
+Wire Wire Line
+	4250 2350 4150 2350
+Wire Wire Line
+	4150 2350 4150 2950
+Connection ~ 4150 2950
+Wire Wire Line
+	4150 2950 4200 2950
 $EndSCHEMATC

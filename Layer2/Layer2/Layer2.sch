@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Layer2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1104,7 +1105,7 @@ Text GLabel 7300 3900 2    50   Input ~ 0
 CU_MuEx_CtrlLn3
 Text GLabel 7300 4100 2    50   Input ~ 0
 CU_MuEx_CtrlLn4
-Text GLabel 7300 5150 2    50   Input ~ 0
+Text GLabel 8300 4700 2    50   Input ~ 0
 CU_MuEx_CtrlLn5
 Text GLabel 8300 4500 2    50   Input ~ 0
 CU_MuEx_CtrlLn6
@@ -1800,7 +1801,7 @@ Text GLabel 7250 5250 0    50   Input ~ 0
 Ram_In
 Text GLabel 7250 5150 0    50   Input ~ 0
 Ram_Out
-Text GLabel 7300 4850 2    50   Input ~ 0
+Text GLabel 8300 4600 2    50   Input ~ 0
 CU_CtrlLn16
 Text GLabel 7300 5050 2    50   Input ~ 0
 CU_CtrlLn18
@@ -1818,4 +1819,26 @@ Wire Wire Line
 	7250 5150 7300 5150
 Wire Wire Line
 	7250 5250 7300 5250
+Text GLabel 7300 4850 2    50   Input ~ 0
+CU_CtrlLn23
+Text GLabel 7300 5150 2    50   Input ~ 0
+CU_MuEx_CtrlLn10
+$Comp
+L power:GND #PWR?
+U 1 1 626DBD5B
+P 5800 10150
+F 0 "#PWR?" H 5800 9900 50  0001 C CNN
+F 1 "GND" H 5805 9977 50  0000 C CNN
+F 2 "" H 5800 10150 50  0001 C CNN
+F 3 "" H 5800 10150 50  0001 C CNN
+	1    5800 10150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 10150
+Text GLabel 8300 4400 2    50   Input ~ 0
+CU_MuEx_CtrlLn7
+Text GLabel 8300 4300 2    50   Input ~ 0
+CU_MuEx_CtrlLn8
+Text GLabel 8300 4200 2    50   Input ~ 0
+CU_MuEx_CtrlLn9
 $EndSCHEMATC
