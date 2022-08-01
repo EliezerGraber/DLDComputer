@@ -867,10 +867,10 @@ F 3 "~" H 15150 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J2
+L Connector_Generic:Conn_02x20_Odd_Even J1
 U 1 1 62466812
 P 13300 4400
-F 0 "J2" H 13350 5517 50  0000 C CNN
+F 0 "J1" H 13350 5517 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 13350 5426 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 13300 4400 50  0001 C CNN
 F 3 "~" H 13300 4400 50  0001 C CNN
@@ -968,10 +968,10 @@ CU_CtrlLn26
 Text GLabel 13850 7500 2    50   Input ~ 0
 CU_CtrlLn27
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J3
+L Connector_Generic:Conn_02x20_Odd_Even J2
 U 1 1 62887E9E
 P 13550 6700
-F 0 "J3" H 13600 7817 50  0000 C CNN
+F 0 "J2" H 13600 7817 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 13600 7726 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 13550 6700 50  0001 C CNN
 F 3 "~" H 13550 6700 50  0001 C CNN
@@ -1636,10 +1636,10 @@ F 3 "" H 1100 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:DB15_Female_HighDensity_MountingHoles J1
+L Connector:DB15_Female_HighDensity_MountingHoles J3
 U 1 1 626EDFC2
 P 1100 6850
-F 0 "J1" H 1100 7717 50  0000 C CNN
+F 0 "J3" H 1100 7717 50  0000 C CNN
 F 1 "DB15_Female_HighDensity_MountingHoles" H 1100 7626 50  0000 C CNN
 F 2 "" H 150 7250 50  0001 C CNN
 F 3 " ~" H 150 7250 50  0001 C CNN

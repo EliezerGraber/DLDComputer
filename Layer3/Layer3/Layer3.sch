@@ -1641,7 +1641,7 @@ U 1 1 626EDFC2
 P 1100 6850
 F 0 "J3" H 1100 7717 50  0000 C CNN
 F 1 "DB15_Female_HighDensity_MountingHoles" H 1100 7626 50  0000 C CNN
-F 2 "" H 150 7250 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm" H 150 7250 50  0001 C CNN
 F 3 " ~" H 150 7250 50  0001 C CNN
 	1    1100 6850
 	1    0    0    -1  
